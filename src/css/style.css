@@ -627,7 +627,7 @@ font-family: "Roboto", sans-serif;
 
 .contacts__container {
     display: grid;
-    grid-template-columns: 448px repeat(2, 336px) 200px;
+    grid-template-columns: minmax(0px, 448px) repeat(2, minmax(0px, 336px)) minmax(0px, 200px);
 }
 
 .contacts__catalog,
